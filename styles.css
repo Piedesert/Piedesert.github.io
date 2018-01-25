@@ -1,0 +1,26 @@
+#wrapper {
+	background-color: rgba(226, 77, 77, .69);
+	border-radius: 9px;
+}
+#body{
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 5px;
+	background-color: rgb(91, 73, 73);
+	color: rgb(255, 255, 255);
+}
+#nav{
+	width: 100%;
+}
+.contact{
+	font-size: 13px;
+	font-family: helvetica neue for SAS;
+	margin: 15px;
+}
+#leftSide{
+	float: left;
+}
+#rightSide{
+	float: left;
+	padding-left: 80%;
+}
