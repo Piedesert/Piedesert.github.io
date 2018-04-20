@@ -9,18 +9,9 @@
 	background-color: rgb(91, 73, 73);
 	color: rgb(255, 255, 255);
 }
-#nav{
-	width: 100%;
-}
+
 .contact{
 	font-size: 13px;
 	font-family: helvetica neue for SAS;
 	margin: 15px;
-}
-#leftSide{
-	float: left;
-}
-#rightSide{
-	float: left;
-	padding-left: 80%;
 }
