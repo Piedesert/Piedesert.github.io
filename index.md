@@ -1,4 +1,10 @@
-<head>		
+<!DOCTYPE html>
+<html lang = "en">
+<!-- Nick Morrow
+<!-- Created 12/20/2017 24:19
+<!-- Last Updated 5/03/2018 20:29 -->
+
+	<head>		
 		
 		<!-- Meta Data --> 
 		<meta charset="utf-8">
@@ -47,8 +53,6 @@
 					</div>
 				</nav>				
 				
-				
-				
 				<!-- Footer -->
 				<footer class = "p-4 bg-dark text-center shadow align-top" id = "footStyle">
 					<div class="row">
@@ -69,3 +73,4 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 	
 	</body>
+</html>
