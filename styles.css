@@ -16,13 +16,13 @@ body:before {
 body {
 	background: #fff url("images/funky-lines.png");
 }
-
+/*
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
+*/
 #wrapper {	
 	background-color: rgba(67, 168, 73, .69);
 	border-radius: 9px;	
