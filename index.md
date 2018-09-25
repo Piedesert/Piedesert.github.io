@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang = "en">
 <!-- Nick Morrow
 <!-- Created 12/20/2017 24:19
@@ -12,7 +11,7 @@
 		
 		<!-- CSS --> 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-		<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+		<!--<link rel = "stylesheet" type = "text/css" href = "styles.css" />-->
 	
 		<title>Nick Morrow - Resume</title>		
 		
