@@ -66,7 +66,7 @@
 					<div class="row">
 						<div class = "col-sm-12">
 							<span class="text-muted">Copyright &copy 2018 Nicholas Glenn Morrow</span><br />
-							<p class="text-muted">-- Last Updated --<br />Octover 1, 2018</p> <!-- Update Frequently -->
+							<p class="text-muted">-- Last Updated --<br />October 1, 2018</p> <!-- Update Frequently -->
 						</div>
 					</div>
 				</footer>
