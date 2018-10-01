@@ -57,23 +57,24 @@
 				<div id = "body">								
 					<?php
 					//if "email" variable is filled out, send email
-					  if (isset($_REQUEST['email']))  {
+					  if (isset($_POST['email']))  {
 					  
 					  //Email information
 					  $admin_email = "nickgmorrow@gmail.com";
-					  $email = $_REQUEST['email'];
-					  $subject = $_REQUEST['subject'];
-					  $comment = $_REQUEST['comment'];
+					  $email = $_POST['email'];
+					  $subject = $_POST['subject'];
+					  $comment = $_POST['comment'];
 					  
 					  //send email
-					  mail($admin_email, "$subject", $comment, "From:" . $email);
-					  
-					  //Email response
-					  echo "Thank you for contacting us!";
+					  if (mail($admin_email, $email, $subject, $comment)) {				  
+						  //Email response
+						  echo "Thank you for reaching out!";
+						}
 					  }
 					  
 					  //if "email" variable is not filled out, display the form
 					  else  {
+						echo "Something went wrong, go back and try again!";
 					?>
 					<form>
 						<div class="form-group" method="post">
@@ -87,7 +88,7 @@
 						</div>
 						<div class="form-group">
 							<label for="comment">Message:</label>
-							<textarea class="form-control" name="comment" id="comment" rows="3" placeholder="Leave me a message.."></textarea>
+							<textarea class="form-control col-sm-12" name="comment" id="comment" rows="3" placeholder="Leave me a message.."></textarea>
 						</div>
 							<button type="submit" value="Submit" class="btn btn-primary">Submit</button>
 					</form>					  
