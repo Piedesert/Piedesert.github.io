@@ -1,7 +1,7 @@
 <html lang = "en">
 <!-- Nick Morrow
 <!-- Created 12/20/2017 24:19
-<!-- Last Updated 5/03/2018 20:29 -->
+<!-- Last Updated 10/01/2018 9:2 -->
 
 	<head>		
 		
@@ -10,8 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- CSS --> 
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-		<!--<link rel = "stylesheet" type = "text/css" href = "styles.css" />-->
+		<link rel = "stylesheet" type = "text/css" href = "styles.css" />
 	
 		<title>Nick Morrow - Resume</title>		
 		
@@ -19,50 +18,38 @@
 	
 	<body>
 	
-		<!-- Bootstrap -->
-		<div class = "container-fluid">
-	
-			<!-- Wrapper -->
-			<div id = "wrapper">			
-				
-				<!-- Navigation -->
-				<nav class = "navbar navbar-expand-md sticky-top shadow bg-success navbar-dark">
-				<!-- Home | About Me | Projects | Education | Contact -->
-				
-					<!-- Collapse Toggler -->
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					
-					<div class="collapse navbar-collapse" id="collapsibleNavbar">
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link active" href="resume.html">Resume</a>
-							</li>						
-							<li class="nav-item">
-								<a class="nav-link active" href="aboutMe.html">About Me</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link active" href="projects.html">Projects</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link active" href="contactMe.html">Contact Me</a>
-							</li>
-						</ul>
-					</div>
-				</nav>				
-				
-				<!-- Footer -->
-				<footer class = "p-4 bg-dark text-center shadow align-top" id = "footStyle">
-					<div class="row">
-						<div class = "col-sm-12">
-							<span class="text-muted">Copyright &copy 2018 Nicholas Glenn Morrow</span><br />
-							<p class="text-muted">-- Last Updated --<br />May 3, 2018</p> <!-- Update Frequently -->
-						</div>
-					</div>
-				</footer>
-				
-			</div> <!-- </wrapper> -->		
+	<!-- Bootstrap -->
+	<div class = "container-fluid">
+
+		<!-- Wrapper -->
+		<div id = "wrapper">
+			<ul>
+				<li>
+					<a class="active" href="resume.html">Resume</a>
+				</li>						
+				<li>
+					<a class="active" href="aboutMe.html">About Me</a>
+				</li>
+				<li>
+					<a class="active" href="projects.html">Projects</a>
+				</li>
+				<li>
+					<a class="active" href="contactMe.html">Contact Me</a>
+				</li>
+			</ul>
+		</div>	
+
+		<!-- Footer -->
+		<footer class = "p-4 bg-dark text-center shadow align-top" id = "footStyle">
+			<div class="row">
+				<div class = "col-sm-12">
+					<span class="text-muted">Copyright &copy 2018 Nicholas Glenn Morrow</span><br />
+					<p class="text-muted">-- Last Updated --<br />May 3, 2018</p> <!-- Update Frequently -->
+				</div>
+			</div>
+		</footer>
+
+		</div> <!-- </wrapper> -->		
 		
 	</div> <!-- </container-fluid> -->	
 	
