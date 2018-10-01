@@ -1,7 +1,7 @@
 <html lang = "en">
 <!-- Nick Morrow
-<!-- Created 12/20/2017 24:19
-<!-- Last Updated 10/01/2018 9:2 -->
+<!-- Created 12/20/2017 24:19 
+<!-- Last Updated 9/25/2018 10:48 -->
 
 	<head>		
 		
@@ -10,6 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- CSS --> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<link rel = "stylesheet" type = "text/css" href = "styles.css" />
 	
 		<title>Nick Morrow - Resume</title>		
@@ -18,38 +19,59 @@
 	
 	<body>
 	
-	<!-- Bootstrap -->
-	<div class = "container-fluid">
+		<!-- Bootstrap -->
+		<div class = "container-fluid">
+	
+			<!-- Wrapper -->
+			<div id = "wrapper">			
+				
+				<!-- Navigation -->
+				<nav class = "navbar navbar-expand-md sticky-top shadow bg-success navbar-dark">
+				<!-- Home | About Me | Projects | Education | Contact -->
+				
+					<!-- Collapse Toggler -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ol class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" href="resume.html">Resume</a>
+							</li>						
+							<li class="nav-item">
+								<a class="nav-link active" href="aboutMe.html">About Me</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="projects.html">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="contactMe.html">Contact Me</a>
+							</li>
+						</ol>
+					</div>
+				</nav>	
+				
+				<!-- body -->
+				<div class = "row" id = "body">	
+					<h2>About Me:</h2>
+					<p>I am a Senior at Northwest Missouri State University and I graduate after the completion of the Fall 2018 semester. As a student working towards a Bachelor of Science Computer Science degree I am always looking for new opportunities to grow and learn in my chosen field.</p>
+					<p>I have experience in working with both computer hardware and software. I have experience with design tools such as Adobe Photoshop and Dreamweaver; programming IDEs like Visual Studio, Netbeans, and IntelliJ; database diagramming and design with SQL; and various programming languages: C, C++, C#, Python, Java, HTML, and CSS. I have experienced  scrum and agile development cycles first hand and understand how to plan an appropriate design scope. I believe I have a great foundation to build upon. I am a very trainable person that will ask questions to clarify my work and tasks. I learn quickly and am ready for challenges of new opportunity.</p>
+					<p>Please contact me at (816)277-5963 or email me at nickgmorrow@gmail.com if you have any questions or comments. Thank you for your time and I look forward to hearing from you.</p>
 
-		<!-- Wrapper -->
-		<div id = "wrapper">
-			<ul>
-				<li>
-					<a class="active" href="resume.html">Resume</a>
-				</li>						
-				<li>
-					<a class="active" href="aboutMe.html">About Me</a>
-				</li>
-				<li>
-					<a class="active" href="projects.html">Projects</a>
-				</li>
-				<li>
-					<a class="active" href="contactMe.html">Contact Me</a>
-				</li>
-			</ul>
-		</div>	
-
-		<!-- Footer -->
-		<footer class = "p-4 bg-dark text-center shadow align-top" id = "footStyle">
-			<div class="row">
-				<div class = "col-sm-12">
-					<span class="text-muted">Copyright &copy 2018 Nicholas Glenn Morrow</span><br />
-					<p class="text-muted">-- Last Updated --<br />May 3, 2018</p> <!-- Update Frequently -->
-				</div>
-			</div>
-		</footer>
-
-		</div> <!-- </wrapper> -->		
+				</div> <!-- </Body Div> -->
+				
+				<!-- Footer -->
+				<footer class = "p-4 bg-dark text-center shadow align-top" id = "footStyle">
+					<div class="row">
+						<div class = "col-sm-12">
+							<span class="text-muted">Copyright &copy 2018 Nicholas Glenn Morrow</span><br />
+							<p class="text-muted">-- Last Updated --<br />Octover 1, 2018</p> <!-- Update Frequently -->
+						</div>
+					</div>
+				</footer>
+				
+			</div> <!-- </wrapper> -->		
 		
 	</div> <!-- </container-fluid> -->	
 	
