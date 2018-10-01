@@ -41,7 +41,7 @@
 								<a class="nav-link active" href="resume.html">Resume</a>
 							</li>						
 							<li class="nav-item">
-								<a class="nav-link active" href="aboutMe.html">About Me</a>
+								<a class="nav-link active" href="https://piedesert.github.io/">About Me</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link active" href="projects.html">Projects</a>
@@ -54,8 +54,61 @@
 				</nav>				
 				
 				<!-- body -->
-				<div class = "row" id = "body">								
+				<div id = "body">								
+					<form>
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="name@example.com">
+							<small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<input class="form-control" type="text" placeholder="Subject" id = "subject">
+						</div>
+						<div class="form-group">
+							<label for="comment">Example textarea</label>
+							<textarea class="form-control" id="comment" rows="3" placeholder="Leave me a message.."></textarea>
+						</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
 					
+					<?php
+					//if "email" variable is filled out, send email
+					  if (isset($_REQUEST['email']))  {
+					  
+					  //Email information
+					  $admin_email = "nickgmorrow@gmail.com";
+					  $email = $_REQUEST['email'];
+					  $subject = $_REQUEST['subject'];
+					  $comment = $_REQUEST['comment'];
+					  
+					  //send email
+					  mail($admin_email, "$subject", $comment, "From:" . $email);
+					  
+					  //Email response
+					  echo "Thank you for contacting us!";
+					  }
+					  
+					  //if "email" variable is not filled out, display the form
+					  else  {
+					?>
+
+					 <form method="post">
+
+					  Email: <input name="email" type="text" />
+
+					  Subject: <input name="subject" type="text" />
+
+					  Message:
+
+					  <textarea name="comment" rows="15" cols="40"></textarea>
+
+					  <input type="submit" value="Submit" />
+					  </form>
+					  
+					<?php
+					  }
+					?>
 				</div> <!-- </Body Div> -->
 				
 				<!-- Footer -->
