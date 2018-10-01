@@ -23,7 +23,7 @@
 
 		<!-- Wrapper -->
 		<div id = "wrapper">
-			<ul>
+			<ul style="list-style:none;">
 				<li>
 					<a class="active" href="resume.html">Resume</a>
 				</li>						
