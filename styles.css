@@ -16,6 +16,12 @@ body {
 	background: #fff url("images/funky-lines.png");
 }
 
+.portraitFrame {
+	width: 80%;
+	height: 80%;
+	border: none;
+}
+
 #wrapper {	
 	background-color: rgba(67, 168, 73, .69);
 	border-radius: 9px;	
