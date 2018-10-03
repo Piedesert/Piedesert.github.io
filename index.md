@@ -54,7 +54,7 @@
 				
 				<!-- body -->
 				<div id = "body" class = "row">
-					<div class = "col-lg-10">
+					<div class = "col-lg-12">
 						<h2>About Me:</h2>
 						<p>I am a Senior at Northwest Missouri State University and I graduate after the completion of the Fall 2018 semester. As a student working towards a Bachelor of Science Computer Science degree I am always looking for new opportunities to grow and learn in my chosen field.</p>
 
