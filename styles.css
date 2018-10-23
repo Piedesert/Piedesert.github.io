@@ -50,7 +50,7 @@ body {
 	border-color:#28a745;
 }
 /*
-.nav-tabs > li a { 
+.nav-tabs > li > a { 
 	border: 1px solid #28a745;
 	color: #fff;
 }
