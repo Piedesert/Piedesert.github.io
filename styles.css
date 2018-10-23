@@ -26,7 +26,7 @@ body {
 #body { 	
 	margin-right: 5%;
 	margin-left: 5%;
-	padding: 2em;
+	padding: 1em;
 	min-height:100%;
 	background-color: rgba(91, 73, 73, .79);
 	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0, .8);
@@ -46,6 +46,17 @@ body {
 	height: 100%;
 }
 
+.nav-tabs > li > a:hover{
+background-color: SlateGray !important;
+border:1px solid #28a745;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover{
+background-color: LightSlateGray !important;
+border:1px solid #28a745;
+}
+
 .contact {
 	font-size: 1em;
 	font-family: helvetica neue for SAS;
@@ -54,7 +65,7 @@ body {
 
 .footStyle {
 	width: 100%;
-	height: 10em;
+	height: 7em;
 	font-size: 1em;
 	font-family: helvetica neue for SAS; 
 	-webkit-box-shadow: 0px -30px 31px 2px rgba(0,0,0, .69);
