@@ -70,22 +70,22 @@
 					
 					<!-- Right Side: Work History, organizations, references -->
 					<div class = "col-md-6">	
-						<!-- Nav tabs --> 
+						<!-- Nav tabs -->
 						<ul class="nav nav-tabs" role="tablist">
-						  <li class="nav-item">
-							<a class="nav-link active" data-toggle="tab" role="tab" href="#LSHS">High School</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link active" data-toggle="tab" role="tab" href="#MyKitchen">Recipe App</a>
-						  </li>
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" role="tab" id="lshs-tab" href="#LSHS">High School</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" role="tab" id="myk-tab" href="#MyKitchen">Recipe App</a>
+							</li>
 						</ul>
 
 						<!-- Tab panes -->
-						<div class="tab-content">
-						  <div class="tab-pane active fade show" id="LSHS" role="tabpanel">
-							<iframe class="portraitFrame" src="https://web.archive.org/web/20140911091541/http://lshs.lsr7.org/"></iframe>
-						  </div>
-						  <div class="tab-pane active fade show" id="MyKitchen" role="tabpane2"></div>
+						<div class="tab-content" id="projectTabContent">
+							<div class="tab-pane active fade show" id="LSHS" role="tabpanel" aria-labelledby="lshs-tab">
+								<iframe class="portraitFrame" src="https://web.archive.org/web/20140911091541/http://lshs.lsr7.org/"></iframe>
+							</div>
+							<div class="tab-pane active fade" id="MyKitchen" role="tabpanel" aria-labelledby="myk-tab"></div>
 						</div>					
 					</div> <!-- </right> -->
 				</div> <!-- </Body Div> -->
