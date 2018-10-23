@@ -55,18 +55,18 @@ body {
 	color: #fff;
 }
 
-.nav-tabs > li > a:hover{
-	background-color: SlateGray !important;
-	border:1px solid #28a745;
-	color: LimeGreen;
-}
-
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover{
 	background-color: LightSlateGray !important;
 	border:1px solid #28a745;
 	color: LightGreen
+}
+
+.nav-tabs > li > a:hover{
+	background-color: SlateGray !important;
+	border:1px solid #28a745;
+	color: LimeGreen;
 }
 */
 .contact {
