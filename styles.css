@@ -23,7 +23,8 @@ body {
 
 #wrapper {	
 	background-color: rgba(67, 168, 73, .69);
-	border-radius: 9px;	
+	border-top-left-radius: 9px;	
+	border-top-right-radius: 9px;	
 }
 
 #body {
