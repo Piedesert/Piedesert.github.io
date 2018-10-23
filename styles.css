@@ -12,7 +12,7 @@ body {
 	background: #fff url("images/funky-lines.png");
 	min-height:100%; 
     position:relative; 
-    padding-bottom:50em;
+    margin-bottom:50em;
 }
 
 .projectFrame {
