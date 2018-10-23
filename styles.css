@@ -24,7 +24,7 @@ body {
 }
 
 #body {
-	margin: 0 5em -15em;
+	margin: 0 5em 15em;
 	padding: 5px;
 	min-height:100%;
 	background-color: rgba(91, 73, 73, .79);
