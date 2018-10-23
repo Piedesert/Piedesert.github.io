@@ -12,9 +12,9 @@ body {
 	background: #fff url("images/funky-lines.png");
 }
 
-.portraitFrame {
-	width: 100%;
-	height: 100%;
+.projectFrame {
+	width: 50em;
+	height: 50em;
 	border: none;
 }
 
@@ -34,6 +34,10 @@ body {
 	color: rgb(255, 255, 255);
 	font-size: 1em;
 	font-family: helvetica neue for SAS;	
+}
+
+#projectTab{
+	width: 100%;
 }
 
 #projectTabContent {
