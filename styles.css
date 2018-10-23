@@ -53,6 +53,7 @@ body {
 }
 
 .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover{
 	background-color: LightSlateGray !important;
 	border:1px solid #28a745;
