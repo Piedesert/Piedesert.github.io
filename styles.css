@@ -56,18 +56,18 @@ body {
 	border-radius: 0px 0px 9px 9px;
 }
 
-a: link {
+a:link {
 	color: Green;
 }
 
-a: hover {
+a:hover {
 	color: LimeGreen;
 }
 
-a: visited {
+a:visited {
 	color: MediumSeaGreen;
 }
 
-a: active {
+a:active {
 	color: LawnGreen;
 }
