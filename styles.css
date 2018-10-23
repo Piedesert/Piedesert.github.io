@@ -36,6 +36,11 @@ body {
 	font-family: helvetica neue for SAS;	
 }
 
+#projectTabContent {
+	width: 100%;
+	height: 100%;
+}
+
 .contact {
 	font-size: 1em;
 	font-family: helvetica neue for SAS;
