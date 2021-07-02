@@ -56,7 +56,7 @@
 				<div id = "body" class = "row">
 					<div class = "col-lg-12">
 						<h2>About Me:</h2>
-						<p>I am a Senior at Northwest Missouri State University and I graduate after the completion of the Fall 2018 semester. As a student working towards a Bachelor of Science Computer Science degree I am always looking for new opportunities to grow and learn in my chosen field.</p>
+						<p>I am a Graduate from Northwest Missouri State University in class of 2018. As a software engineer I am always looking for innovative and inventive ways to solve different and ever-changing problems.</p>
 
 	<p>I have experiences working with both computer hardware and software. I have experience with design tools such as Adobe Photoshop and Dreamweaver; programming IDEs like Visual Studio, Netbeans, and IntelliJ; database diagramming and design with SQL; and various programming languages: C, C++, C#, Python, Java, Javascript HTML, and CSS. I have experienced  scrum and agile development cycles with a team first hand and understand how to plan an appropriate project scope with the ability to adjust to changes along the way.  I have a solid foundational understanding of data structures to build upon. I have interpersonal skills that allow me to bridge the gap between the technical side of development and the business side. I am a very trainable person and I am not afraid to ask questions to clarify my work to ensure high quality and efficiency. I learn quickly and am ready for the challenges that new opportunities bring.</p>
 
@@ -71,7 +71,7 @@
 					<div class="row">
 						<div class = "col-sm-12">
 							<span class="text-muted">Copyright &copy 2018 Nicholas Glenn Morrow</span><br />
-							<p class="text-muted">-- Last Updated --<br />October 1, 2018</p> <!-- Update Frequently -->
+							<p class="text-muted">-- Last Updated --<br />July 01, 2021</p> <!-- Update Frequently -->
 						</div>
 					</div>
 				</footer>
