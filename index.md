@@ -1,7 +1,7 @@
 <html lang = "en">
 <!-- Nick Morrow
 <!-- Created 12/20/2017 24:19 
-<!-- Last Updated 9/25/2018 10:48 -->
+<!-- Last Updated 07/02/2021 18:05 -->
 
 	<head>		
 		
@@ -56,7 +56,7 @@
 				<div id = "body" class = "row">
 					<div class = "col-lg-12">
 						<h2>About Me:</h2>
-						<p>I am a Graduate from Northwest Missouri State University in class of 2018. As a software engineer I am always looking for innovative and inventive ways to solve different and ever-changing problems.</p>
+						<p>I am a Graduate from Northwest Missouri State University in the class of 2018. As a software engineer I am always looking for innovative and inventive ways to solve different and ever-changing problems.</p>
 
 	<p>I have experiences working with both computer hardware and software. I have experience with design tools such as Adobe Photoshop and Dreamweaver; programming IDEs like Visual Studio, Netbeans, and IntelliJ; database diagramming and design with SQL; and various programming languages: C, C++, C#, Python, Java, Javascript HTML, and CSS. I have experienced  scrum and agile development cycles with a team first hand and understand how to plan an appropriate project scope with the ability to adjust to changes along the way.  I have a solid foundational understanding of data structures to build upon. I have interpersonal skills that allow me to bridge the gap between the technical side of development and the business side. I am a very trainable person and I am not afraid to ask questions to clarify my work to ensure high quality and efficiency. I learn quickly and am ready for the challenges that new opportunities bring.</p>
 
