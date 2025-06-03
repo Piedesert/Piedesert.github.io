@@ -1,7 +1,7 @@
 <html lang = "en">
 <!-- Nick Morrow
 <!-- Created 12/20/2017 24:19 
-<!-- Last Updated 07/02/2021 21:46 -->
+<!-- Last Updated 06/21/2022 18:57 -->
 
 	<head>		
 		
@@ -11,7 +11,7 @@
 		
 		<!-- CSS --> 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-		<link rel = "stylesheet" type = "text/css" href = "assets/css/styles.css" />
+		<link rel="stylesheet" type="text/css" href = "assets/css/styles.css" />
 	
 		<title>Nick Morrow - Resume</title>		
 		
@@ -20,10 +20,10 @@
 	<body>
 	
 		<!-- Bootstrap -->
-		<div class = "container-fluid">
+		<div class="container-fluid">
 	
 			<!-- Wrapper -->
-			<div id = "wrapper">			
+			<div id="wrapper">			
 				
 				<!-- Navigation -->
 				<nav class = "navbar navbar-expand-md sticky-top shadow bg-success navbar-dark">
@@ -52,8 +52,8 @@
 					</div>
 				</nav>	
 				
-				<!-- body -->
-				<div id = "body" class = "row">
+				<!-- body content -->
+				<div id="bodyContent" class="row">
 					<div class = "col-lg-12">
 						<h2>About Me:</h2>
 						<p>I am a Graduate from Northwest Missouri State University in the class of 2018. As a software engineer I am always looking for innovative and inventive ways to solve different and ever-changing problems.</p>
@@ -64,7 +64,7 @@
 	
 	
 					</div> 
-				</div> <!-- </Body Div> -->
+				</div> <!-- </Body Content Div> -->
 				
 				<!-- Footer -->
 				<footer class = "p-4 bg-dark text-center shadow align-top" id = "footStyle">
